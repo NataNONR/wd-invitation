@@ -1,5 +1,5 @@
 body {
-  background: #323641;
+  background: #000000;
 }
 
 .letter-image {
@@ -29,7 +29,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 0 0 150px 200px;
-  border-color: transparent transparent #e15349 transparent;
+  border-color: transparent transparent #e6b74f transparent;
   z-index: 2;
 }
 .animated-mail .top-fold {
@@ -45,7 +45,7 @@ body {
   -moz-transition: transform 0.4s 0.4s, z-index 0.2s 0.4s;
   transform-origin: 50% 0%;
   transition: transform 0.4s 0.4s, z-index 0.2s 0.4s;
-  border-color: #cf4a43 transparent transparent transparent;
+  border-color: #e1ab3c transparent transparent transparent;
   z-index: 2;
 }
 .animated-mail .back-fold {
@@ -53,7 +53,7 @@ body {
   bottom: 0;
   width: 200px;
   height: 150px;
-  background: #cf4a43;
+  background: #e1ab3c;
   z-index: 0;
 }
 .animated-mail .left-fold {
@@ -63,7 +63,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 150px 0 0px 200px;
-  border-color: transparent transparent transparent #e95f55;
+  border-color: transparent transparent transparent #e9c45b;
   z-index: 2;
 }
 .animated-mail .letter {
@@ -82,7 +82,13 @@ body {
 .animated-mail .letter .letter-border {
   height: 10px;
   width: 100%;
-  background: repeating-linear-gradient(-45deg, #cb5a5e, #cb5a5e 8px, transparent 8px, transparent 18px);
+  background: repeating-linear-gradient(
+    -45deg,
+    #e8c741,
+    #f6f195 8px,
+    transparent 8px,
+    transparent 18px
+  );
 }
 .animated-mail .letter .letter-title {
   margin-top: 10px;
@@ -102,7 +108,11 @@ body {
   -moz-transition: 0.4s;
   -moz-transform: translateX(-50%);
   border-radius: 100%;
-  background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  background: radial-gradient(
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 .letter-image:hover .animated-mail {
