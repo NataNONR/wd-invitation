@@ -2,10 +2,18 @@ body {
   background: #000000;
 }
 
+.letter-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  max-width: 750px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .letter-image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  display: flex;
+
   width: 200px;
   height: 200px;
   -webkit-transform: translate(-50%, -50%);
