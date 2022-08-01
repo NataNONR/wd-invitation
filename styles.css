@@ -1,29 +1,30 @@
 body {
   background: #000000;
+  margin-top: 120px;
 }
 
 .letter-block {
-  display: flex;
-  justify-content: center;
-  margin-top: 200px;
-  max-width: 750px;
-  margin-left: 0;
-  margin-right: 0;
+  max-width: 1000px;
+}
+
+.language-name {
+  color: #ffffff;
 }
 
 .letter-image {
-  display: flex;
-
+  position: relative;
+  top: 50%;
+  left: 50%;
   width: 200px;
   height: 200px;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+
   cursor: pointer;
 }
 
 .animated-mail {
-  position: absolute;
   height: 200px;
   width: 200px;
   -webkit-transition: 0.4s;
@@ -103,11 +104,11 @@ body {
   margin-left: 10px;
 }
 
-.shadow {
+.language-name {
   position: absolute;
-  top: 250px;
+  top: 220px;
   left: 50%;
-  width: 400px;
+  width: 200px;
   height: 30px;
   transition: 0.4s;
   transform: translateX(-50%);
@@ -115,12 +116,6 @@ body {
   -webkit-transform: translateX(-50%);
   -moz-transition: 0.4s;
   -moz-transform: translateX(-50%);
-  border-radius: 100%;
-  background: radial-gradient(
-    rgba(0, 0, 0, 0.1),
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0)
-  );
 }
 
 .letter-image:hover .animated-mail {
@@ -140,6 +135,7 @@ body {
 .letter-image:hover .animated-mail .letter {
   height: 220px;
 }
-.letter-image:hover .shadow {
-  width: 250px;
+.letter-image:hover .language-name {
+  margin-top: 70px;
+  /* width: 100px; */
 }
