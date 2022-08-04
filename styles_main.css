@@ -3,6 +3,18 @@ body {
   margin-top: 120px;
 }
 
+p {
+  color: #4e493c;
+  font-size: 12px;
+}
+a {
+  color: #60490d;
+  text-decoration: none;
+}
+a:hover {
+  color: #785a0f;
+}
+
 .letter-image {
   position: relative;
   top: 50%;

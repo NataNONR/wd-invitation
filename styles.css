@@ -45,6 +45,18 @@ p {
   margin-top: 100px;
 }
 
+.page-footer {
+  color: #4e493c;
+  font-size: 12px;
+}
+a {
+  color: #60490d;
+  text-decoration: none;
+}
+a:hover {
+  color: #785a0f;
+}
+
 @media (max-width: 576px) {
   .content {
     max-width: 70%;
