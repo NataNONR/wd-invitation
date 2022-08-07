@@ -15,6 +15,14 @@ a:hover {
   color: #785a0f;
 }
 
+.letter-title a {
+  color: #c6a22b;
+  text-decoration: none;
+}
+.letter-title a:hover {
+  color: #ffd700;
+}
+
 .letter-image {
   position: relative;
   top: 50%;
@@ -24,8 +32,6 @@ a:hover {
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-
-  cursor: pointer;
 }
 
 .animated-mail {
@@ -142,5 +148,4 @@ a:hover {
 }
 .letter-image:hover .language-name {
   margin-top: 70px;
-  /* width: 100px; */
 }
