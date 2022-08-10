@@ -31,6 +31,9 @@ body {
 .back-link {
   text-align: right;
 }
+.back-click {
+  color: #60490d;
+}
 
 h2 {
   font-size: 70px;
@@ -53,11 +56,13 @@ p {
 }
 
 .page-footer {
-  color: #4e493c;
+  color: #242014;
+  letter-spacing: 0.1em;
+  text-shadow: -1px -1px 1px #222222, 0.5px 0.5px 1px #464237;
   font-size: 12px;
 }
 a {
-  color: #60490d;
+  color: #242014;
   text-decoration: none;
 }
 a:hover {

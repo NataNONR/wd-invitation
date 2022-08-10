@@ -3,9 +3,14 @@ body {
   margin-top: 120px;
 }
 
-p {
-  color: #4e493c;
+footer {
+  color: #242014;
+  letter-spacing: 0.1em;
+  text-shadow: -1px -1px 1px #222222, 0.5px 0.5px 1px #464237;
   font-size: 12px;
+}
+.footer-link {
+  color: #242014;
 }
 a {
   color: #60490d;
