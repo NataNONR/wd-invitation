@@ -4,6 +4,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #000000;
+  color: #c5951b;
+  font-family: "Crimson Pro", serif, "K2D", sans-serif;
 }
 
 .back-link {
@@ -21,6 +23,16 @@ body {
 }
 .name-one {
   text-align: left;
+  color: rgba(0, 0, 0, 0.9);
+  text-shadow: 2px 5px 6px rgba(19, 14, 0, 0.3),
+    0px -5px 35px rgba(255, 236, 191, 0.5);
+}
+
+.and,
+.name-two {
+  color: rgba(197, 149, 27, 0.9);
+  text-shadow: 2px 5px 6px rgba(255, 243, 206, 0.3),
+    0px -5px 35px rgba(255, 196, 0, 0.5);
 }
 .and {
   text-align: center;
@@ -31,9 +43,13 @@ body {
 .back-link {
   text-align: right;
 }
+.back-click {
+  color: #60490d;
+}
 
 h2 {
-  font-size: 70px;
+  font-family: "Gabriela", serif, "Sriracha", cursive;
+  font-size: 72px;
   line-height: 0.7;
 }
 
@@ -41,23 +57,20 @@ p {
   margin-bottom: 30px;
 }
 
-h2,
-p {
-  color: #ffffff;
-}
-
 .message {
-  font-size: 24px;
+  font-size: 30px;
   text-align: right;
   margin-top: 100px;
 }
 
 .page-footer {
-  color: #4e493c;
-  font-size: 12px;
+  color: #242014;
+  letter-spacing: 0.1em;
+  text-shadow: -1px -1px 1px #222222, 0.5px 0.5px 1px #464237;
+  font-size: 14px;
 }
 a {
-  color: #60490d;
+  color: #242014;
   text-decoration: none;
 }
 a:hover {
