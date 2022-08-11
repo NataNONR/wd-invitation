@@ -1,13 +1,14 @@
 body {
   background: #000000;
   margin-top: 120px;
+  font-family: "Crimson Pro", serif, "K2D", sans-serif;
 }
 
 footer {
   color: #242014;
   letter-spacing: 0.1em;
   text-shadow: -1px -1px 1px #222222, 0.5px 0.5px 1px #464237;
-  font-size: 12px;
+  font-size: 14px;
 }
 .footer-link {
   color: #242014;
