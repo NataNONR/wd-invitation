@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #000000;
+  color: #c5951b;
 }
 
 .back-link {
@@ -21,6 +22,16 @@ body {
 }
 .name-one {
   text-align: left;
+  color: rgba(0, 0, 0, 0.9);
+  text-shadow: 2px 5px 6px rgba(19, 14, 0, 0.3),
+    0px -5px 35px rgba(255, 236, 191, 0.5);
+}
+
+.and,
+.name-two {
+  color: rgba(197, 149, 27, 0.9);
+  text-shadow: 2px 5px 6px rgba(255, 243, 206, 0.3),
+    0px -5px 35px rgba(255, 196, 0, 0.5);
 }
 .and {
   text-align: center;
@@ -42,11 +53,6 @@ h2 {
 
 p {
   margin-bottom: 30px;
-}
-
-h2,
-p {
-  color: #ffffff;
 }
 
 .message {
